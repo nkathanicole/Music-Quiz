@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(46, 65, 65);
+}
+.app{
+    background-color:rgb(97, 76, 76);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+h1 {
+    color: #333;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#options {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.option {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3f2222;
+}
